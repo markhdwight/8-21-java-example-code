@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <name>Michael</name>
+    <location state="TN">
+        <value>Memphis</value>
+    </location>
+    <pets>
+        <pet>Spot</pet>
+        <pet>Mittens</pet>
+    </pets>
+</root>
