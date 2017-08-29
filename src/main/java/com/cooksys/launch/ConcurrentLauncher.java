@@ -11,6 +11,7 @@ public class ConcurrentLauncher {
 		ServerSocket server = new ServerSocket(1337);
 
 		while (true) {
+			//System.out.println("Awaiting client");
 			Socket client = server.accept();
 
 			Thread clientHandler = new Thread(new ClientHandler(client));
